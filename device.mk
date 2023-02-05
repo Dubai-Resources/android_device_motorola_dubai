@@ -55,7 +55,9 @@ $(call inherit-product, hardware/motorola/dolby/setup.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.moto
+    android.hardware.biometrics.fingerprint@2.3-service.moto \
+    libudfpshandler_moto_egistec \
+    libudfpshandler_moto
 
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/motorola:libudfps_extension.moto)
 
