@@ -26,3 +26,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="dubai_g-user 14 U1RDS34.80-40-5-4 94692f-00ef9 release-keys" \
     BuildFingerprint=motorola/dubai_g/dubai:14/U1RDS34.80-40-5-4/94692f-00ef9:user/release-keys \
     DeviceProduct=dubai_g
+
+# Project Matrixx Stuff
+MATRIXX_BUILD_TYPE := Official
+WITH_GMS := true
+WITH_GMS_COMMS_SUITE := true
+TARGET_SUPPORTS_WALLEFFECT := true
+BYPASS_CHARGE_SUPPORTED  := true

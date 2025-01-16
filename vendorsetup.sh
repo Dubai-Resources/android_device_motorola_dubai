@@ -20,5 +20,5 @@ git clone https://github.com/RisingOS-Revived-devices/hardware_motorola.git -b f
 
 # Setup KSU-Next
 cd kernel/motorola/sm7325
-curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next-susfs/kernel/setup.sh" | bash -s next-susfs
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
 cd ../../..
