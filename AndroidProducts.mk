@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dubai.mk
+    $(LOCAL_DIR)/arrow_dubai.mk
