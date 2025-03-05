@@ -49,7 +49,7 @@ PRODUCT_PACKAGES += \
     DubaiCameraService
 
 # Dolby
-$(call inherit-product, hardware/motorola/dolby/setup.mk)
+$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \

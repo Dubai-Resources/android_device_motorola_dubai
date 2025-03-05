@@ -1,6 +1,6 @@
 # Common Device Tree
 rm -rf device/motorola/sm7325-common
-git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-common.git -b InfinityX device/motorola/sm7325-common --depth=1
+git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-common.git -b Infinity-Sdolby device/motorola/sm7325-common --depth=1
 
 # Vendor Tree
 rm -rf vendor/motorola/dubai
@@ -17,6 +17,10 @@ git clone https://github.com/Dubai-Resources/android_kernel_motorola_sm7325.git 
 # Hardware
 rm -rf hardware/motorola
 git clone https://github.com/Dubai-Resources/hardware_motorola.git -b fifteen hardware/motorola
+
+# Dolby
+rm -rf hardware/dolby
+git clone https://github.com/swiitch-OFF-Lab/hardware_dolby.git -b sony-1.3 hardware/dolby
 
 # Setup KSU-Next
 cd kernel/motorola/sm7325
