@@ -6,9 +6,6 @@
 # A/B
 TARGET_IS_VAB := true
 
-# BCR
-$(call inherit-product, vendor/bcr/bcr.mk)
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
@@ -86,7 +83,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
 
 # Priv-Keys
--include vendor/infinity-priv/keys/keys.mk
+-include vendor/lineage-priv/keys/keys.mk
 
 # Sensors
 PRODUCT_PACKAGES += \
