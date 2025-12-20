@@ -1,6 +1,6 @@
 # Common Device Tree
 rm -rf device/motorola/sm7325-common
-git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-common.git -b InfinityX device/motorola/sm7325-common --depth=1
+git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-common.git -b axion device/motorola/sm7325-common --depth=1
 
 # Vendor Tree
 rm -rf vendor/motorola/dubai
@@ -17,7 +17,3 @@ git clone https://github.com/Dubai-Resources/android_kernel_motorola_sm7325.git 
 # Hardware
 rm -rf hardware/motorola
 git clone https://github.com/Dubai-Resources/hardware_motorola.git -b fifteen hardware/motorola
-
-# BCR
-rm -rf vendor/bcr
-git clone https://github.com/Chaitanyakm/vendor_bcr.git -b main vendor/bcr
