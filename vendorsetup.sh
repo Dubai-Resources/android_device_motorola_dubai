@@ -8,7 +8,7 @@ git clone https://github.com/Dubai-Resources/proprietary_vendor_motorola_dubai.g
 
 # Common Vendor Tree
 rm -rf vendor/motorola/sm7325-common
-git clone https://github.com/Dubai-Resources/proprietary_vendor_motorola_sm7325-common.git -b lineage-23.0 vendor/motorola/sm7325-common --depth=1
+git clone https://github.com/Dubai-Resources/proprietary_vendor_motorola_sm7325-common.git -b axion vendor/motorola/sm7325-common --depth=1
 
 # Kernel Tree
 rm -rf kernel/motorola/sm7325
