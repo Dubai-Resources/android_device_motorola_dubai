@@ -59,6 +59,8 @@ PRODUCT_PACKAGES += \
     libudfpshandler_moto_egistec \
     libudfpshandler_moto
 
+$(call soong_config_set,moto_udfps,screen_wake_delay,200)
+
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/motorola:libudfps_extension.moto)
 
 # GMS
