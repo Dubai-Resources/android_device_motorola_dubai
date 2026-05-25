@@ -1,6 +1,6 @@
 # Common Device Tree
 rm -rf device/motorola/sm7325-common
-git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-common.git -b InfinityX device/motorola/sm7325-common --depth=1
+git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-common.git -b InfinityX-Sdolby device/motorola/sm7325-common --depth=1
 
 # Vendor Tree
 rm -rf vendor/motorola/dubai
@@ -21,3 +21,10 @@ git clone https://github.com/Dubai-Resources/hardware_motorola.git -b fifteen ha
 # BCR
 rm -rf vendor/bcr
 git clone https://github.com/Chaitanyakm/vendor_bcr.git -b main vendor/bcr
+
+# Dolby
+rm -rf hardware/dolby
+git clone https://github.com/swiitch-OFF-Lab/hardware_dolby.git -b Dolby-Vision-2.1 hardware/dolby
+
+rm -rf packages/apps/DolbyUI
+git clone https://github.com/swiitch-OFF-Lab/packages_apps_DolbyUI -b 16.0 packages/apps/DolbyUI

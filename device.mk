@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.dubai)
 
 # Dolby
-$(call inherit-product, hardware/motorola/dolby/setup.mk)
+$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
