@@ -16,7 +16,7 @@ git clone https://github.com/Dubai-Resources/android_kernel_motorola_sm7325.git 
 
 # Hardware
 rm -rf hardware/motorola
-git clone https://github.com/Dubai-Resources/hardware_motorola.git -b fifteen hardware/motorola
+git clone https://github.com/Dubai-Resources/hardware_motorola.git -b moto-udfps hardware/motorola
 
 # BCR
 rm -rf vendor/bcr
