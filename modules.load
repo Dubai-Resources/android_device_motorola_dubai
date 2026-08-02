@@ -1,15 +1,12 @@
 aw882xx_k504.ko
 va_macro_dlkm.ko
 fc0013.ko
-lzo-rle.ko
 wcd_core_dlkm.ko
-lzo_compress.ko
 q6_notifier_dlkm.ko
 mt20xx.ko
 fc0012.ko
 tea5767.ko
 platform_dlkm.ko
-lzo_decompress.ko
 mt2063.ko
 wsa883x_dlkm.ko
 tda18250.ko
@@ -40,7 +37,6 @@ qcom_edac.ko
 qm1d1b0004.ko
 pinctrl_wcd_dlkm.ko
 swr_dmic_dlkm.ko
-lzo.ko
 stub_dlkm.ko
 apr_dlkm.ko
 tda18212.ko
@@ -63,7 +59,6 @@ q6_pdr_dlkm.ko
 xc4000.ko
 m88rs6000t.ko
 adsp_loader_dlkm.ko
-zram.ko
 snd_event_dlkm.ko
 wsa_macro_dlkm.ko
 wcd938x_dlkm.ko
